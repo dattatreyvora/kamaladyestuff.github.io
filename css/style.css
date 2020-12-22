@@ -1,0 +1,175 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+/*AUTHOR: Mark Abucayon*/
+/*POSITION:Web Designer and Developer*/
+/*WEBSITE: http://mark.mabucplus.com*/
+/*Created in Mozilla Firefox3*/
+
+@import url('main.css');
+@import url('class.html');
+@import url('coda-slider.css');
+@import url('jquery.lightbox-0.5.css');
+@import url('ie6.html');
+
+
+
+html{background-image:url("../images/mainBg.png");background-repeat:no-repeat ; background-position:right top;background-color:#fff;}
+
+.contactTitle {font-family:Arial;font-size:13.3px;color:#000;font-weight:bold;}
+.canvas {background-image:url("../images/canvas.png");background-repeat:repeat;border:1px solid #6C8590;background-color:transparent;sizingMethod='scale';height:500px;}
+.canvas2{background-image:url("../images/canvas.png");background-repeat:repeat;border:1px solid #6C8590;background-color:transparent;sizingMethod='scale';height:auto;}
+
+.detailText {font-size:12px;font-family:arial;font-weight:normal;color:#646464;line-height:15px;}
+
+.detailTextDark {font-size:11px;font-family:tahoma;font-weight:normal;color:#444;line-height:15px;}
+
+
+.more :link,.more :visited,.more :active {font-family:tahoma;font-size:11px;color:#D00000;text-decoration:underline;}
+.more :hover {font-family:tahoma;font-size:11px;color:#000;text-decoration:underline;}
+
+.viewD :link,.viewD :visited,.viewD :active {font-family:tahoma;font-size:11px;color:#000000;text-decoration:underline;}
+.viewD :hover {font-family:tahoma;font-size:11px;color:#ff0000;text-decoration:underline;}
+
+.grayLink{font-family:tahoma;font-weight:normal;color:#666;font-size:11px;padding:5px;text-decoration:none;}
+
+.Title {font-family:Arial;font-size:16px;color:#0A0035;font-weight:bold;text-transform:uppercase;}
+
+.subTitle {font-family:Arial;font-size:14px;color:#666;font-weight:normal;text-transform:capitalize;}
+
+.prodBox{background-image:url("../images/prodBox.png");background-repeat:no-repeat;border-top:1px dotted #aaa;}
+
+html>body #scrollContainer .canvas {background-image:url("../images/canvas.png");background-repeat:repeat;border:1px solid #6C8590;background-color:transparent;sizingMethod='scale';height:auto;width:949px;}
+
+/*MENU NAVIGATIONS OF CODA SLIDER*/
+
+ol, ul {
+	list-style: none;
+	float:left;}
+
+ul.navigation {
+    float:left;
+	margin:0;
+	font-family:lucida,arial;
+	text-transform:uppercase;
+	font-weight:bold;
+	background-color:#0A0035;
+}
+ul.navigation li {
+    float:left;
+	margin:0 2px 0 0;
+	padding:0px;
+	width:160px;
+	font-size:13px;
+}
+ul.navigation li a:link, ul.navigation li a:visited {
+    color:#FFF;
+	text-decoration:none;
+	background:#0A0035;
+	padding:4px 10px 4px 10px;
+	display:block;
+	text-align:center;	
+}
+ul.navigation li a:hover {
+    color:#FFF;
+	text-decoration:none;
+	background:#D00000;
+	padding:4px 10px 4px 10px;
+	display:block;
+	text-align:center;
+}
+ul.navigation li a.selected:link, ul.navigation li a.selected:visited {
+    color:#FFF;
+	text-decoration:none;
+	background:#D00000;
+	padding:4px 10px 4px 10px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+ul.productNav{
+    float:left;
+	margin:0;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#C0B99A;
+	text-transform:uppercase;
+}
+ul.productNav li {
+    float:left;
+	margin:0px;
+	padding:0px;
+	width:120px;
+	font-size:12px;
+}
+ul.productNav li a:link, ul.productNav li a:visited {
+    color:#000;
+	text-decoration:none;
+	background:#C0B99A;
+	padding:4px 10px 4px 10px;
+	display:block;
+	text-align:center;	
+}
+ul.productNav li a:hover {
+    color:#000;
+	text-decoration:none;
+	background:#ECE7D5;
+	padding:4px 10px 4px 10px;
+	display:block;
+	text-align:center;
+}
+ul.productNav li a.selected:link, ul.productNavli a.selected:visited {
+    color:#c00000;
+	text-decoration:none;
+	background:#FFF;
+	padding:4px 10px 4px 10px;
+	text-align:center;
+	font-weight:bold;
+
+
+}
+
+
+.colorChartHead{
+font-family:arial;
+font-size:13px;
+font-weight:bold;
+color:#000;
+background-color:#ccc;
+border-bottom:1px dotted #aaa;
+padding-left:10px;
+}
+
+.colorChart{
+font-family:arial;
+font-size:12px;
+font-weight:normal;
+color:#555;
+border-bottom:1px dotted #aaa;
+padding-left:10px;
+}
+
+.colorBar  { float:left;text-align:left;padding:5px 25px 5px 0px;}
+.colorBar li {
+    float:left;
+ 	margin:0px;
+	width:120px;
+	border:2px dotted #ccc;
+	height:50px;
+	padding:0 10px 0 0 ;
+}
+.colorBar li:hover {
+	float:left;
+ 	margin:0px;
+	padding:0 10px 0 0 ;
+	width:120px;
+	border:2px solid #444;
+	height:50px;
+}
+
+

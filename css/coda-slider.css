@@ -1,0 +1,71 @@
+#slider {
+   	width:950px;
+    margin:0 auto;
+    position: relative;
+}
+
+.scroll {
+    width:950px;
+	overflow: auto;
+    position: relative;
+    clear:left;
+	overflow: hidden;	
+}
+
+.scrollContainer div.panel {
+    width:950px;
+	color:#FFF;
+	float: left; 
+	position: relative;
+}
+.scrollContainer div.panel ul li img {
+	margin:0 0 10px 0;
+}
+.scrollContainer div.panel ul li span {
+	margin:0 0 0 15px;
+}
+.scrollButtons {
+    position: absolute;
+    top: 80px;
+    cursor: pointer;
+}
+
+/*MENU NAVIGATIONS OF CODA SLIDER*/
+
+ul.navigation {
+    float:left;
+	margin:0;
+}
+ul.navigation li {
+    float:left;
+	margin:0 2px 0 0;
+	width:122px;
+	font-size:14px;
+}
+ul.navigation li a:link, ul.navigation li a:visited {
+    color:#FFF;
+	text-decoration:none;
+	background:#7d3416;
+	padding:12px 10px 12px 10px;
+	display:block;
+	text-align:center;	
+}
+ul.navigation li a:hover {
+    color:#FFF;
+	text-decoration:none;
+	background:#893f21;
+	padding:12px 10px 12px 10px;
+	display:block;
+	text-align:center;
+}
+ul.navigation li a.selected:link, ul.navigation li a.selected:visited {
+    color:#7f3416;
+	text-decoration:none;
+	background:#EDEDED;
+	padding:12px 10px 12px 10px;
+	text-align:center;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,271 @@
+/*LEFT COLUMN BOX*/
+.left_column {
+	float:left;
+	width:600px;
+}
+
+/*RIGHT COLUMN BOX*/
+.right_column {
+	float:right;
+	width:275px;
+}
+
+/*SLIDE AREA*/
+.slide_area {
+	margin:0px;
+}
+
+/*BREAD CRUMB*/
+.breadcrumb {
+	margin:13px 0 0 0;
+	color:#333;
+}
+.breadcrumb p {
+	line-height:18px;
+}
+.breadcrumb span {
+	font-weight:bold;
+}
+
+/*OUR LATEST WORK, ABOUT US, SERVICES, PORTFOLIO, CONTACT US*/
+.latest_work, .aboutus, .services, .portfolio, .contacts {
+	margin:25px 0 0 0;
+	color:#333;
+	width:610px;
+}
+.latest_work h2, .aboutus h2, .services h2, .portfolio h2, 
+.contacts h2, .welcome h2, .ourservices h2 {
+	color:#b33f10;
+	font-size:18px;
+	margin:0 0 15px 0;
+}
+
+/*ABOUT US PAGE*/
+.aboutus p {
+	line-height:18px;
+	margin:0 0 20px 0;
+}
+.aboutus h3 {
+	font-size:15px;
+	margin:0 0 15px 0;
+}
+.aboutus span {
+	background:#BF5023;
+	color:#FFF;
+	padding:2px;
+}
+.aboutus a:link, .aboutus a:visited {
+	text-decoration:underline;
+	color:#990000;
+}
+.aboutus a:hover {
+	text-decoration:none;
+	color:#990000;
+}
+
+/*SERVICES PAGE*/
+.services p {
+	line-height:18px;
+}
+.services img {
+	width:120px;
+	height:100px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.services_list {
+	margin:15px 0 0 0;
+	padding:15px;
+	border:1px dashed #CCC;
+}
+.services_list:hover {
+	background:#F5F5F5;
+}
+
+/*PORTFOLIO PAGE*/
+.portfolio p {
+	line-height:18px;
+	margin:0 0 25px 0;
+}
+.portfolio ul li {
+	float:left;
+	margin:0 10px 0 0;
+	width:110px;
+}
+.portfolio ul li img {
+	width:110px;
+	height:90px;
+	border:1px solid #CCC;
+}
+
+/*CONTACT US PAGE*/
+.contacts p {
+	line-height:18px;
+}
+.contacts a:link, .contacts a:visited {
+	text-decoration:none;
+	color:#990000;
+}
+.contacts a:hover {
+	text-decoration:underline;
+	color:#990000;
+}
+
+/*SEARCH*/
+.search {
+	margin:78px 0 0 0;
+	background:#FFF;
+	padding:15px;
+}
+.search input {
+	width:187px;
+	vertical-align:top;
+}
+.search input.btn {
+	width:40px;
+	height:29px;
+	cursor:pointer;
+	padding:6px;
+	color:#b33f10;
+}
+
+/*SIDE BOX*/
+.sidebox {
+	background:url(../images/side.html) repeat-x;
+	margin:2px 0 0 0;
+	height:600px;
+}
+
+/*CLIENT TESTIMONIALS and CONTACT INFO*/
+.testi {
+	padding:15px;
+}
+.testi h2, .contactinfo h2 {
+	font-size:18px;
+	margin:0 0 15px 0;
+}
+.testi h2 img, .contactinfo h2 img, .welcome h2 img, .ourservices h2 img {
+	margin:0 10px 5px 0;
+	vertical-align:middle;
+}
+.testi p {
+	line-height:18px;	
+}
+.testi p.testi_name {
+	font-weight:bold;
+	font-size:14px;
+	margin:10px 0 0 0;
+}
+.testi p.testi_position {
+	margin:0 0 0 0;
+}
+
+/*DIVIDER*/
+.line {
+	background:url(../images/line.html) repeat-x;
+	width:275px;
+	height:2px;
+}
+
+/*CONTACT INFORMATIONS*/
+.contactinfo {
+	margin:4px 0 0 0;
+	padding:15px;
+}
+.contactinfo p {
+	line-height:18px;
+	font-weight:bold;
+	color:#b33f10;
+	padding:2px;
+}
+.contactinfo p.contact_address {
+	margin:10px 0 0 0;
+	font-weight:normal;
+	color:#333;
+}
+.contactinfo label {
+	display:block;
+	width:45px;
+	text-align:right;
+	float:left;
+	color:#333;
+	margin:0 10px 0 0;
+}
+.contactinfo a:link, .contactinfo a:visited {
+	font-weight:normal;
+	color:#b33f10;
+	text-decoration:none;
+}
+.contactinfo a:hover {
+	font-weight:normal;
+	color:#b33f10;
+	text-decoration:underline;
+}
+
+/*BOTTOM WELCOME AND SERVICES*/
+.btm_welcome {
+	margin:20px 0 0 0;
+	color:#333;
+}
+.welcome {
+	float:left;
+	width:350px;
+	margin:0 25px 0 0;
+}
+.welcome p {
+	line-height:18px;	
+}
+.ourservices {
+	float:left;
+	width:250px;
+}
+.ourservices p {
+	line-height:18px;
+}
+
+/*IMAGE SLIDESHOW*/
+#slideshow {
+    position:relative;
+	width:633px;
+	height:268px;
+	margin:17px 0 0 0;
+}
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+	width:633px;
+	height:268px;
+}
+#slideshow img.active {
+    z-index:10;
+}
+#slideshow img.last-active {
+    z-index:9;
+}
+/*FEEDBACK*/
+.textbox{
+background-color:#FFFFFF;
+border:1px solid #BBBBBB;
+width:150px;
+}
+
+.content{
+height:480px;
+width:900px;
+left:0;
+}
+.textbox1{
+background-color:#FFFFFF;
+width:300px;
+}
+.error{
+height:11px;
+font-size:9px;
+padding-bottom:10px;
+}
+
+
+
+
