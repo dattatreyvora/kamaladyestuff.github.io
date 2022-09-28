@@ -173,3 +173,21 @@ padding-left:10px;
 }
 
 
+btn-new {
+    float: right;
+    border: 1px solid #000;
+    padding: 10px 20px;
+   
+}
+
+.btn-new:hover{background: #D00000;}
+
+.btn-new a {
+    color: #D00000;
+    background: #fff;
+}
+
+.btn-new a {
+    color:#ffffff ;
+    background: #D00000;
+}
