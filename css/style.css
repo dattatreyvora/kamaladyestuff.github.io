@@ -187,7 +187,7 @@ padding-left:10px;
     background: #fff;
 }
 
-.btn-new a {
+.btn-new a:hover {
     color:#ffffff ;
     background: #D00000;
 }
