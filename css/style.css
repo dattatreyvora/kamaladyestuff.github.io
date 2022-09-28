@@ -183,8 +183,13 @@ padding-left:10px;
 
 .btn-new:hover{background: #D00000;}
 
+.btn-new:hover a {
+  color: #000;
+}
+
 .btn-new a {
     color: #000000;
+	text-decoration: none;
     
 }
 
